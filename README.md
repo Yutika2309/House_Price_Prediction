@@ -1,5 +1,5 @@
 # House Price Prediction
-This project dealt with a basic Linear Regression task of predicting the House Price values based on certain features.
+This project dealt with a basic Linear Regression task of predicting the House Price values based on certain features. The project was done is steps- EDA, Feature Engineering and Scaling, Hypothesis Testing and finally Prediction.
 
 ## Libraries used:
 * Pandas -> 1.0.5
