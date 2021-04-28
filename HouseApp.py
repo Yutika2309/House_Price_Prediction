@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pickle
-st.set_option('public_folder', 'downloads')
 
 model = pickle.load(open('model.pkl','rb'))
 
