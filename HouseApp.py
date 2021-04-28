@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-st.set_option('public_filetypes', 'pdf, csv, xls, jpg, png')
+st.set_option('pdf, csv, xls, jpg, png')
 
 model = pickle.load(open('model.pkl','rb'))
 
