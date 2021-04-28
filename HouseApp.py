@@ -2,8 +2,6 @@ import streamlit as st
 import numpy as np
 import pickle
 
-st.set_option('pdf, csv, xls, jpg, png')
-
 model = pickle.load(open('model.pkl','rb'))
 
 list_bhk_bath = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
@@ -15,16 +13,6 @@ def predict_price(total_sqft,bath,BHK,price_per_sqft):
     prediction=model.predict(input)
     return float(prediction)
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("final_house.png");
-background-size: cover;
-
-}
-</style>
-'''
-st.markdown(page_bg_img, unsafe_allow_html=True)
 
 def main():
     st.markdown("<h1 style='text-align: center; color: black;'>House Price Prediction</h1>", unsafe_allow_html=True)
