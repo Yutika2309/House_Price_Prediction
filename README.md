@@ -11,7 +11,7 @@ Link to the web API: https://share.streamlit.io/yutika2309/house_price_predictio
 
 ### Note:
 
-* This API provides the output of house price  "Lakhs". So, e.g. "706 Lakhs" could be read as 7.06 crores. 
+* This API provides the output of house price in "Lakhs". So, e.g. "706 Lakhs" could be read as 7.06 crores. 
 
 * It is advised to enter input values of bigger houses as opposed to smaller because the data set is in itself biased towards bigger values.
 
