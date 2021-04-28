@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pickle
 
+st.set_option('public_filetypes', 'pdf, csv, xls, jpg, png')
+
 model = pickle.load(open('model.pkl','rb'))
 
 list_bhk_bath = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
