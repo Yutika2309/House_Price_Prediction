@@ -36,7 +36,7 @@ def main():
     price_per_sqft = st.text_input(" ")
     
 
-    if st.button("Predict"):
+    if st.button("Predict (Price in Lakhs)"):
         output=predict_price(total_sqft,bath,BHK,price_per_sqft)
         st.success(round(output))
     
