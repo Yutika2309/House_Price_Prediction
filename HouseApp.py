@@ -16,7 +16,7 @@ def predict_price(total_sqft,bath,BHK,price_per_sqft):
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://wallpaperaccess.com/full/636869.png");
+background-image: url("final_house.png");
 background-size: cover;
 
 }
